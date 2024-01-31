@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'estate_express';
+
+  screenHieght:number;
+  constructor() {
+    this.screenHieght = window.innerHeight;
+  }
 }
